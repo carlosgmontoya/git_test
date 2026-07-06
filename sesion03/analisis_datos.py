@@ -9,5 +9,8 @@ datos_simulados = pd.DataFrame({'Tiempo': tiempo, 'Voltaje': voltaje_sensor})
 datos_simulados.to_csv('datos_simulados.csv', index=False)
 print("¡Archivo creado con éxito!")
 
-plt.plot(tiempo, voltaje_sensor, color='blue', linewidth=1, label='Voltaje Sensor')
-plt.show()
+df = pd.read_csv('datos_simulados.csv')
+print(df.head())
+
+#plt.plot(tiempo, voltaje_sensor, color='blue', linewidth=1, label='Voltaje Sensor')
+#plt.show()
