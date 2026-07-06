@@ -8,8 +8,8 @@ import random
 
 #from sesion02 import estadisticas
 
-#for ruta in sys.path:
-#    print(ruta)
+for ruta in sys.path:
+    print(ruta)
 
 #print(estadisticas.__file__)
 print(random.__file__)
